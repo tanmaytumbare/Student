@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Student Info</title>
@@ -6,15 +6,53 @@
 <body>
 
 <form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
+  First name	: 
+  <input type="text" name="firstname"><br><br>
+  Last name:
+  <input type="text" name="lastname"><br><br>
+  
+  Username	: 
+  <input type="text" name="username"><br><br>
+  Password	:
+  <input type="text" name="password"><br><br>
+  Confirm Password	:
+  <input type="text" name="password"><br><br>
 
-<input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
+  Gender	: <br>	
+<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  
+  Contact No.	: 
+  <input type="number" name="contact"><br><br>
+  
+  Email ID	:
+  <input type="text" name="email"><br><br>
+  
+  Country	: 
+   <input list="countries" name="country">
+  <datalist id="countries">
+    <option value="India">
+    <option value="Australia">
+    <option value="USA">
+    <option value="Bhutan">
+    <option value="Nepal">
+    <option value="Malaysia">
+  </datalist><br><br>
+
+  Hobbies	: <br>
+  <input type="checkbox" name="H1" value="Sports" checked> I like to play various Sports.<br>
+  <input type="checkbox" name="H1" value="Drawing & Painting"> I like Drawing & Painting.<br>
+  <input type="checkbox" name="H3" value="Dancing"> I like to Dance.<br>  
+  <input type="checkbox" name="H4" value="Guitar"> I like to play Guitar.<br>
+  <input type="checkbox" name="H5" value="Reading"> I like to read various books.<br><br>
+
+  
+ Address	:
+ <input type="text" name="address"><br><br>
+ 
+   <button type="submit" value="Submit">Submit</button>
 </form>
-
+ 
 </body>
 </html>
