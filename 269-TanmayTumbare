@@ -30,15 +30,14 @@
   <input type="text" name="email"><br><br>
   
   Country	: 
-   <input list="countries" name="country">
-  <datalist id="countries">
-    <option value="India">
-    <option value="Australia">
-    <option value="USA">
-    <option value="Bhutan">
-    <option value="Nepal">
-    <option value="Malaysia">
-  </datalist><br><br>
+   <select id="countries">
+    <option value="1">India</option>
+    <option value="2">Australia</option>
+    <option value="3">USA</option>
+    <option value="4">Bhutan</option>
+    <option value="5">Nepal</option>
+    <option value="6">Malaysia</option>
+  </select><br><br>
 
   Hobbies	: <br>
   <input type="checkbox" name="H1" value="Sports" checked> I like to play various Sports.<br>
