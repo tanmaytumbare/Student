@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+       	$("#1").click(function(){
+        	$("p").hide();
+        });
+        $("#2").click(function(){
+        	$("p").show();
+        });
+    });
+</script>
+</head>
+<body>
+<p>I'm a lil paragraph.</p>
+<p>I'm his younger brother.</p>
+<button id="1">Hide</button>
+<button id="2">Show</button>
+</body>
+</html>
