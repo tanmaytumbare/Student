@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Please enter UserName and Password for login...</h3>
+
+Username :<input id="uname" placeholder="Enter Username"><br><br>
+Password : <input id="pass" placeholder="(Must be more than 8 digits)"><br><br>
+
+<button type="button" onclick="Validation_Karti()">Submit</button>
+
+<script>
+function Validation_Karti() {
+  var x,y,text;
+
+  // Get the value of the input field
+  x = document.getElementById("uname").value;
+  y = document.getElementById("pass").value;
+
+   if (x=""||y.length<8) {
+    text = "Please Enter a valid Username and Password !!";
+  }
+  if(x.length<8)
+  {
+  	text="Please Enter a valid Password !";
+  }
+  
+  alert(text);
+}
+</script>
+
+</body>
+</html> 
